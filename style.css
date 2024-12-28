@@ -1,0 +1,297 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ cursor: s-resize;
+}
+#logo{
+ width: 20%;
+ height: auto;
+ margin-left: 0.5rem;
+}
+.hedbad{
+ background: url(picture/I.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+ backdrop-filter:blur(15px); 
+ margin: 0px;
+ margin-top: 0px;
+ padding: 0px;
+ padding-bottom: 2rem;
+}
+.myNav{
+ margin-top: 0rem;
+ margin-left: 0.2rem;
+ margin-right: 0.2rem;
+ border-bottom: 1px chocolate;
+ text-align: center;
+}
+.buttNav{
+ margin-right: 1rem;
+}
+li{
+ margin-left: 1rem;
+ margin-top: 0.5rem;
+}
+.aticle{
+ margin: 0rem;
+ text-align: center;
+}
+#s{
+ width: 20rem;
+ height: auto;
+ border-radius: 1pc;
+}
+.Welcome{
+ text-align: center;
+ margin-top: 6rem;
+ color: white;
+}
+.Welcome h2 {
+ font-weight: bold;
+ margin-bottom: 1rem;
+}
+@font-face {
+ font-family: police1;
+ src: url(Roboto.ttf);
+}
+@font-face{
+ font-family: P_police;
+ src: url(P_police.ttf);
+}
+.Welcome h3{
+ font-weight: bold;
+ margin-bottom: 1rem;
+ font-family: police2;
+ font-size: 2rem;
+}
+.navlien{
+ color: white;
+ font-weight: bold;
+ font-family: monospace;
+}
+.carban{
+ margin-left: 4rem;
+ margin-right: 4rem;
+ font-family: police1;
+}
+.centralbtn{
+ margin-top: 2rem;
+}
+.boutc{
+ color: white;
+ background: transparent;
+ border-color: white;
+ padding-left: 2rem;
+ padding-right: 2rem;
+}
+.boutc:hover{
+ background: white;
+ border-color: white;
+ color: black;
+ font-weight: normal;
+}
+.boutc:focus{
+ background: white;
+ border-color: white;
+ color: black;
+ font-weight: normal;
+}
+.loupe{
+ width: 6%;
+ height: 4%;
+}
+.prod{
+ text-align: center;
+ margin-bottom: 5%;
+}
+.prod h2{
+ color: white;
+ font-weight: bold;
+ margin-top: 1.5rem;
+ font-family: police1;
+}
+.inpRech{
+ background: transparent;
+ border-color: transparent;
+ padding: 1%;
+ padding-left: 2%;
+ color: white;
+ font-family: monospace;
+ border-bottom-color: white;
+ animation: anime 1.5s forwards 0.5s;
+ width: 0px;
+ height: 0px;
+}
+.IdNos{
+ background: linear-gradient(100deg,skyblue,#0015FF);
+ color: white;
+ padding: 0.5rem;
+ padding-left: 1.5rem;
+ padding-right: 1.5rem;
+ border-radius: 25px;
+}
+@keyframes anime{
+ 100%{
+  width: 13pc;
+  height: auto;
+ }
+}
+.book{
+ width: 5rem;
+ height: auto;
+}
+.mandiv{
+ margin-top: 3rem;
+}
+.mandiv p{
+ font-family: P_police;
+}
+.mandiv h2{
+ background: linear-gradient(10deg,deepskyblue,#0015FF);
+ color: transparent;
+ -webkit-background-clip: text;
+ background-clip: text;
+ margin-top: 0rem;
+ margin-bottom: 0rem;
+}
+#came img{
+ width: 5.5rem;
+ height: auto;
+}
+#came{
+ margin-top: 1.5rem;
+}
+.prenium{
+ text-align: center;
+ background: url(picture/I1.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+ padding-bottom: 3rem;
+ padding-top: 2rem;
+}
+.prenium h2{
+ color: white;
+ font-weight: bold;
+ margin-top: 1.5rem;
+ font-family: police1;
+ margin-right: 0px;
+}
+.prenium button{
+ 
+}
+.prenium p{
+ font-family: P_police;
+ color: white;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 0rem;
+}
+.offPrenium h2{
+ margin-top: 1.5rem;
+}
+.offPrenium h2 .IdNos{
+ background: linear-gradient(100deg,#D300FF,black);
+}
+.offPrenium{
+ text-align: center;
+ font-family: police1;
+ padding-bottom: 2rem;
+}
+.titlepro{
+ 
+}
+.mandiv .proTitle{
+ font-family: police1;
+ margin-top: 0rem;
+ background: linear-gradient(10deg,#D300FF,black);
+ color: transparent;
+ -webkit-background-clip: text;
+ background-clip: text;
+}
+#end{
+ width: 6.5rem;
+ height: auto;
+}
+.cover_form{
+ text-align: center;
+ margin-right: 0px;
+ width: auto;
+ height: auto;
+}
+.cover_form img{
+ width: auto;
+ height: 30%;
+}
+.form_body{
+ margin-top: 2rem;
+}
+.endsec{
+ background: black;
+ text-align: left;
+ padding-left: 1rem;
+ padding-top: 3rem;
+ padding-bottom: 3rem;
+}
+.property img{
+ width: 5rem;
+ margin-bottom: 2rem;
+ height: auto;
+}
+@font-face{
+ font-family: police2;
+ src: url(Prot.ttf);
+}
+@font-face{
+ font-family: police3;
+ src: url(fast.ttf);
+}
+.property p{
+ font-family: police2;
+ padding-bottom: 0px;
+ color: gray;
+ margin-bottom: 2rem;
+}
+#diby{
+ font-family: P_police;
+}
+.tag h3{
+ color: white;
+ font-family: police1;
+}
+#cotfac{
+ margin-left: 3rem;
+}
+.ic img{
+ width: 1rem;
+ height: auto;
+ margin-bottom: 0.5rem;
+}
+.sos{
+ margin-bottom: 1.3rem;
+}
+#mangaslink{
+ text-decoration: none;
+}
+#mangaslink:hover{
+ text-decoration: underline;
+}
+@media (min-width: 768px){
+ #logo{
+  width: 10%;
+  height: auto;
+ }
+ #end{
+  width: 5.75rem;
+  height: auto;
+ }
+ .loupe{
+  width: 2%;
+  height: auto;
+ }
+ .ic{
+  word-spacing: 2rem;
+  margin-bottom: 1rem;
+ }
+}
